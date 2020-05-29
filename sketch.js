@@ -10,7 +10,7 @@ var ball;
 var platform1;
 var image1;
 //var slingShot;
-var bg = "images/bg.png";
+var bg = "bg.png";
 
 function preload(){
   getBackgroundImg();
@@ -91,10 +91,10 @@ function mouseReleased(){
     var hour = datetime.slice(11,13);
     console.log(hour);
     if(hour>=06 && hour<=19){
-        bg = "images/bg1.png";
+        bg = "bg1.png";
     }
     else{
-        bg = "images/bg.png";
+        bg = "bg.png";
     }
 
     text("Time: " + hour,700,50);

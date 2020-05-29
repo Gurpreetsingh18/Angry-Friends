@@ -6,9 +6,9 @@ class SlingShot{
             stiffness: 0.04,
             length: 10
         }
-        this.sling1 = loadImage('images/sling1.png');
-        this.sling2 = loadImage('images/sling2.png');
-        this.sling3 = loadImage('images/sling3.png');
+        this.sling1 = loadImage('sling1.png');
+        this.sling2 = loadImage('sling2.png');
+        this.sling3 = loadImage('sling3.png');
         this.pointB = support;
         this.slingShot = Constraint.create(options);
         World.add(world,this.slingShot);
