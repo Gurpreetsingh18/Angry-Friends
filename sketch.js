@@ -91,11 +91,19 @@ function mouseReleased(){
     var hour = datetime.slice(11,13);
     console.log(hour);
     if(hour>=06 && hour<=19){
-        bg = "bg2.1.png";
+        bg = "bg1.png";
     }
     else{
         bg = "bg.png";
     }
+
+    text("Time: " + hour,700,50);
+    textSize(15);
+    stroke(10);
+
+    text("Time left to change frame above" + hour == 24>19);
+    textSize(15);
+    stroke(10);
 
     backgroundImg = loadImage(bg);
     console.log(backgroundImg);
