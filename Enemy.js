@@ -11,7 +11,7 @@ class Enemy extends BaseClass {
     this.width = width;
     this.height = height;
     World.add(world,this.body);
-    this.image = loadImage("Enemy.png");
+    this.image = loadImage("images/Enemy.png");
 
   }
 
